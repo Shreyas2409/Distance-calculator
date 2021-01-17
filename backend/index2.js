@@ -18,9 +18,9 @@ app.options("*",cors());
 const pool  = mysql.createConnection({
     connectionLimit : 10,
     host            : '127.0.0.1',
-    user            : 'shreyas',
-    password        : '123',
-    database        : 'assignment',
+    user            : '',
+    password        : '',
+    database        : '',
     port            : '3308'
 });
 
